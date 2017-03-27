@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Libro de visitas</title>
+  </head>
+  <body>
+    <style type="text/css"></style>
+      <script src="js/funciones.js"></script>
+        <h2>La importancia de la asertividad en el éxito personal</h2>
+
+        <p style="font-size: 16px"> La asertividad nos garantiza mejores relaciones aumenta nuestras probabilidades de éxito en la vida y es un sello que identifica a los emprendedores exitosos y a los ganadores.<br><br>
+        La asertividad es el conjunto de cualidades y habilidades que te capacitan para expresar tus propios criterios, defender tus derechos y proclamar tu autenticidad respetando los derechos ajenos y sin inhibirnos nosotros mismos.<br><br>
+        La asertividad es una cualidad imprescindible de las personas proactivas y exitosas.</p><hr>
+
+        <h4>Últimos comentarios</h4>
+        <div>
+          <p id="guardarNuevosComentarios"></p>
+          <!-- <ul>
+              <li type="none" id="comentariosPublicados">
+              </li>
+          </ul>-->
+          <hr>
+          <p style="color: blue">A mi me gusta mucho la asertividad</p>
+          <hr>
+          <p style="color: red; background: #CEF6EC; text-align: center">Yo digo que es falso el contenido de este post.</p>
+        </div><br>
+        <h5>Dejar un comentario</h5>
+          <input id="grande" type="button" value="Texto Grande" onclick= "textoGrande();">
+          <input id="mediano" type="button" value="Texto Mediano" onclick= "textoMediano();">
+          <input id="chico" type="button" value="Texto Chico" onclick= "textoChico();">
+          <input id="colorTxt" type="button" value="Color Texto" onclick= "textoColor();">
+          <input id="colorFondo" type="button" value="Color Fondo" onclick= "fondoColor();">
+          <input id="izq" type="button" value="Alinear Izquierda" onclick= "alinearIzquierda();">
+          <input id="centr" type="button" value="Centrar" onclick= "alinearCentrado();">
+          <input id="der" type="button" value="Alinear Derecha" onclick= "alinearDerecha();">
+            <textarea id="escribirComentario" rows="10" cols="120" placeholder="Escribe aquí tu comentario" onkeyup="mostrarComentario()"></textarea><hr>
+
+      <h3>Contenido</h3>
+      <p id="verComentario"></p>
+      <input id="enviar" type="submit" value="Enviar comentario" onclick= "enviarComentario();" style= "width:120px";"height:85px">
+
+  </body>
+</html>
